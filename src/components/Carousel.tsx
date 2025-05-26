@@ -18,13 +18,13 @@ const Carousel = () => {
   return (
     <Slider {...sliderSettings}>
       <div>
-        <img src="IMG_2987.JPG" className="rounded-xl w-full h-[400px] object-cover" alt="Proyecto 1" />
+        <img src="https://res.cloudinary.com/dhrvenmlj/image/upload/v1748230605/IMG_8552_nfar7z.heic" className="rounded-xl w-full h-[400px] object-cover" alt="Proyecto 1" />
       </div>
       <div>
-        <img src="IMG_2467.JPG" className="rounded-xl w-full h-[400px] object-cover" alt="Proyecto 2" style={{ objectFit: 'contain', objectPosition: 'center' }}/>
+        <img src="https://res.cloudinary.com/dhrvenmlj/image/upload/v1748230605/IMG_8552_nfar7z.heic" className="rounded-xl w-full h-[400px] object-cover" alt="Proyecto 2" style={{ objectFit: 'contain', objectPosition: 'center' }}/>
       </div>
       <div>
-        <img style={{ objectFit: 'contain', objectPosition: 'center' }}  src="IMG_8552.JPG" className="rounded-xl w-full h-[400px] object-cover" alt="Proyecto 3" />
+        <img style={{ objectFit: 'contain', objectPosition: 'center' }}  src="https://res.cloudinary.com/dhrvenmlj/image/upload/v1748230605/IMG_8552_nfar7z.heic" className="rounded-xl w-full h-[400px] object-cover" alt="Proyecto 3" />
       </div>
     </Slider>
   )
