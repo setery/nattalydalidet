@@ -34,7 +34,7 @@ export default function CustomCarousel() {
                 width: '100%',
                 height: '250px',
                 objectFit: 'cover',
-                objectPosition: 'center top',
+                objectPosition: 'center center',
                 borderRadius: '16px',
               }}
               className="carousel-img"
