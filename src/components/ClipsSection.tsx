@@ -1,4 +1,12 @@
-import { Box, Typography, Grid, Card, CardContent } from '@mui/material';
+import {
+  Box,
+  Typography,
+  Grid,
+  Card,
+  CardContent
+} from '@mui/material';
+
+
 
 const clips = [
   {
@@ -32,7 +40,7 @@ export default function ClipsSection() {
 
       <Grid container spacing={4} justifyContent="center">
         {clips.map((clip, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
+          <Grid  key={index}>
             <Card
               elevation={4}
               sx={{
